@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MathMagicRunner {
+public class MathMagicRunnerComparison{
 	public static void main(String[] arg) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the first Int: ");
@@ -7,6 +7,7 @@ public class MathMagicRunner {
 		System.out.println("Enter the second Int: ");
 		int number2 = input.nextInt();
 		
-		MathMagic mathMagic = new MathMagic(number1, number 2);
+		MathMagic mathMagic = new MathMagic(number1, number2);
+		System.out.println(mathMagic.compareNumbers() + "Is Larger");
 	}
 }
