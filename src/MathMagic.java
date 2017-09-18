@@ -76,6 +76,7 @@ public class MathMagic {
 	 * Problem 2.26
 	 * @return True if num2 is a multiple of num1, false if not
 	 */
+	
 	public boolean isMultiple() {
 		if (this.num1 % this.num2 == 0) {
 			return true;

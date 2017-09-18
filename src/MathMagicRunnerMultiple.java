@@ -1,3 +1,4 @@
+//Connor Zwick
 import java.util.Scanner;
 public class MathMagicRunnerMultiple{
 	public static void main(String[] arg) {
